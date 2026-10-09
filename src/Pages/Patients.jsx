@@ -4,7 +4,7 @@ function Patients() {
   const [patients, setPatients] = useState([
     {
       id: "P001",
-      name: "Rahul Kumar",
+      name: "Shajan",
       age: 32,
       gender: "Male",
       phone: "9876543210",
@@ -13,7 +13,7 @@ function Patients() {
     },
     {
       id: "P002",
-      name: "Priya Devi",
+      name: "Devi",
       age: 27,
       gender: "Female",
       phone: "9876543211",
@@ -22,7 +22,7 @@ function Patients() {
     },
     {
       id: "P003",
-      name: "Arun Raj",
+      name: "Prabhu",
       age: 45,
       gender: "Male",
       phone: "9876543212",
@@ -31,7 +31,7 @@ function Patients() {
     },
     {
       id: "P004",
-      name: "Meena Sharma",
+      name: "Meena",
       age: 38,
       gender: "Female",
       phone: "9876543213",

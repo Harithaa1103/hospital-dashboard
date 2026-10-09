@@ -1,10 +1,10 @@
-import DoctorCard from "../components/DoctorCard";
+import DoctorCard from "../Components/Doctorcard";
 
 function Doctors() {
   const doctors = [
     {
       id: 1,
-      name: "Dr. Priya Sharma",
+      name: "Dr. Priya",
       specialization: "Cardiologist",
       department: "Cardiology",
     },
@@ -16,19 +16,19 @@ function Doctors() {
     },
     {
       id: 3,
-      name: "Dr. Meena Raj",
+      name: "Dr.Sharmila",
       specialization: "Pediatrician",
       department: "Pediatrics",
     },
     {
       id: 4,
-      name: "Dr. Karthik Rao",
+      name: "Dr. Karthik",
       specialization: "Orthopedic Surgeon",
       department: "Orthopedics",
     },
     {
       id: 5,
-      name: "Dr. Divya Singh",
+      name: "Dr. Divya ",
       specialization: "Dermatologist",
       department: "Dermatology",
     },

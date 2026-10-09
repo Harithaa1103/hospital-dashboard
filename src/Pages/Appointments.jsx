@@ -4,8 +4,8 @@ function Appointments() {
   const [appointments, setAppointments] = useState([
     {
       id: 1,
-      patient: "Rahul Kumar",
-      doctor: "Dr. Priya Sharma",
+      patient: "Shajan",
+      doctor: "Dr. Priya ",
       department: "Cardiology",
       date: "04 Oct 2026",
       time: "10:00 AM",
@@ -13,7 +13,7 @@ function Appointments() {
     },
     {
       id: 2,
-      patient: "Priya Devi",
+      patient: "Devi",
       doctor: "Dr. Arun Kumar",
       department: "Neurology",
       date: "04 Oct 2026",
@@ -22,8 +22,8 @@ function Appointments() {
     },
     {
       id: 3,
-      patient: "Arun Raj",
-      doctor: "Dr. Karthik Rao",
+      patient: "Prabhu",
+      doctor: "Dr. Karthik",
       department: "Orthopedics",
       date: "05 Oct 2026",
       time: "02:00 PM",
@@ -31,8 +31,8 @@ function Appointments() {
     },
     {
       id: 4,
-      patient: "Meena Sharma",
-      doctor: "Dr. Meena Raj",
+      patient: "Meena",
+      doctor: "Dr.Sharmila",
       department: "Pediatrics",
       date: "06 Oct 2026",
       time: "09:30 AM",

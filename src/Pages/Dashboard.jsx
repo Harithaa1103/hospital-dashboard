@@ -12,7 +12,7 @@ function Dashboard() {
   const doctors = [
     {
       id: 1,
-      name: "Dr. Priya Sharma",
+      name: "Dr. Priya",
       specialization: "Cardiologist",
       department: "Cardiology",
     },
@@ -24,7 +24,7 @@ function Dashboard() {
     },
     {
       id: 3,
-      name: "Dr. Meena Raj",
+      name: "Dr.Sharmila",
       specialization: "Pediatrician",
       department: "Pediatrics",
     },
@@ -34,7 +34,7 @@ function Dashboard() {
     setPatients([
       {
         id: "P001",
-        name: "Rahul Kumar",
+        name: "Shajan",
         age: 32,
         gender: "Male",
         department: "Cardiology",
@@ -42,7 +42,7 @@ function Dashboard() {
       },
       {
         id: "P002",
-        name: "Priya Devi",
+        name: "Devi",
         age: 27,
         gender: "Female",
         department: "Neurology",
@@ -50,7 +50,7 @@ function Dashboard() {
       },
       {
         id: "P003",
-        name: "Arun Raj",
+        name: "Prabhu",
         age: 45,
         gender: "Male",
         department: "Orthopedics",
@@ -58,7 +58,7 @@ function Dashboard() {
       },
       {
         id: "P004",
-        name: "Meena Sharma",
+        name: "Meena",
         age: 38,
         gender: "Female",
         department: "Pediatrics",
@@ -69,15 +69,15 @@ function Dashboard() {
     setAppointments([
       {
         id: 1,
-        patient: "Rahul Kumar",
-        doctor: "Dr. Priya Sharma",
+        patient: "Shajan",
+        doctor: "Dr. Priya",
         date: "04 Oct 2026",
         time: "10:00 AM",
         status: "Confirmed",
       },
       {
         id: 2,
-        patient: "Priya Devi",
+        patient: "Devi",
         doctor: "Dr. Arun Kumar",
         date: "04 Oct 2026",
         time: "11:30 AM",
@@ -85,8 +85,8 @@ function Dashboard() {
       },
       {
         id: 3,
-        patient: "Arun Raj",
-        doctor: "Dr. Meena Raj",
+        patient: "Meena",
+        doctor: "Dr.Sharmila",
         date: "05 Oct 2026",
         time: "02:00 PM",
         status: "Confirmed",
