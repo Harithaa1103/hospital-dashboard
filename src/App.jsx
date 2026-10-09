@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 
-import Sidebar from "./components/Sidebar";
-import Topbar from "./components/Topbar";
+import Sidebar from "./Components/Sidebar.jsx";
+import Topbar from "./Components/Topbar.jsx";
 
-import Dashboard from "./pages/Dashboard";
-import Patients from "./Pages/Patients";
-import Doctors from "./Pages/Doctors";
-import Appointments from "./Pages/Appointments";
+import Dashboard from "./Pages/Dashboard.jsx";
+import Patients from "./Pages/Patients.jsx";
+import Doctors from "./Pages/Doctors.jsx";
+import Appointments from "./Pages/Appointments.jsx";
 
 function App() {
   return (

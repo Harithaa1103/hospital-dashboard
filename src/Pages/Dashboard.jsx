@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-import StatCard from "../components/StatCard";
-import PatientTable from "../components/PatientTable";
-import DoctorCard from "../components/DoctorCard";
-import AppointmentTable from "../components/AppointmentTable";
+import StatCard from "../Components/StatCard";
+import PatientTable from "../Components/PatientTable";
+import DoctorCard from "../Components/Doctorcard";
+import AppointmentTable from "../Components/AppointmentTable";
 
 function Dashboard() {
   const [patients, setPatients] = useState([]);
